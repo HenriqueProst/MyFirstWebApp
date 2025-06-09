@@ -1,20 +1,27 @@
 body{
     background-color: rgb(255,255,255);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:  center;
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2020/03/tartaruga-plc3a1stico.jpg?quality=70&strip=info&w=1280&h=720&crop=1);
+
 } /* */
 
-.formContainer{
+.imagemInicial{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:  center;
     background-color: white;
     padding: 20px;/* espaçamento interno*/
     margin: 10px; /*Espaçamento externo */
-    width: 30%;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.textoInicial{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;/* espaçamento interno*/
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
